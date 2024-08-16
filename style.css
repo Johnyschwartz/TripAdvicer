@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mochiy-pop-p-one-regular {
+    font-family: "Mochiy Pop P One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.title-container__1 {
+    display: flex;
+}
+
+.title-container__1 img {
+    width: 80px;
+    height: 80px;
+
+}
+.title-container__1 h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.title-container__2 {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    margin-right: 140px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 15px;
+
+}
+
+.font {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.container2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container2 p:hover {
+    border-bottom: solid black 2px;
+    cursor: pointer;
+
+}
+
+.parent-container {
+
+    justify-content: center;
+    display: flex;
+
+}
+
+.search-container {
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    border: solid 1px black;
+    width: 500px;
+    box-shadow: 3px 3px 10px black;
+    margin-top: 10px;
+
+}
+
+.search-container p {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    margin-left: 30px;
+    background-color: transparent;
+}
+
+.search-container__search {
+    background-color: #34E0A1;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.search-container__btn {
+    margin-left: 180px;
+}
+
+.image-con {
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-container img {
+    width: 800px;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.image-container {
+    margin-top: 50px;
+    display: flex;
+
+    position: relative;
+    width: 800px;
+}
+
+.image-container__p {
+    position: absolute;
+    color: white;
+    top: 300px;
+    font-size: 20px;
+    left: 10px;
+}
+
+.image__btn {
+    position: absolute;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: solid #34E0A1;
+    background-color: black;
+    color: white;
+    top: 380px;
+    left: 10px;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+}
+
+.ad-image {
+    width: 600px;
+}
+
+.resturant-image {
+    display: flex;
+}
+
+.resturant-image img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+
+}
+
+.resturant-image__div {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+}
+
+.div-title {
+    position: absolute;
+    left: 5px;
+    top: 150px;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+.ad-section2 {
+    background-color: rgb(160, 160, 35);
+    width: 1000px;
+
+}
+
+.ad-section2 {
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.ad-section2__img {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ad-section2__title {
+    width: 350px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.ad-section2__btn {
+    border-radius: 5px;
+    border: solid 2px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.section3-title {
+    margin-left: 10px;
+    margin-top: 100px;
+
+}
+
+.section3-image {
+    display: flex;
+}
+
+.chennai-image {
+    width: 350px;
+    height: 250px;
+}
+
+.hole-container {
+    margin-top: 10px;
+}
+
+.section3-titlee {
+    margin-top: 300px;
+}
+
+.section4 {
+    background-color: bisque;
+    margin-top: 300px;
+
+}
+
+.section4-img {
+    width: 400px;
+    height: 300px;
+}
+
+.section4__image {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section4-center {
+    display: flex;
+    justify-content: center;
+}
+
+.trip {
+    width: 600px;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.section6 {
+    background-color: bisque;
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+ul {
+    margin-left: 10px;
+    list-style-type: none;
+    padding: 30px;
+}
+li{
+    padding: 10px;
+}
+.section6-ul {
+    margin-left: 300px;
+}
+.last{
+    position: absolute;
+    top: 85%;
+    margin-left: 10px;
+   
+    
+}
+
+.aa{
+    margin-left: 50px;
+}
+.opt{
+    position: absolute;
+    right: 0;
+    top: 300px;
+    margin-right: 50px;
+}
+select{
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+}
